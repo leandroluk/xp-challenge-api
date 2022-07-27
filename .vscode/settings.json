@@ -1,0 +1,30 @@
+{
+  // editor
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  // dockercompose
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  // files
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  // thunder-client
+  "thunder-client.saveToWorkspace": true
+}

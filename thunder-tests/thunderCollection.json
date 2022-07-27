@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "4639720e-1cc9-434b-8cc2-0faec27b008e",
+    "colName": "xp-challenge-api",
+    "created": "2022-07-27T00:21:50.287Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "913151e0-f9c9-43af-b53d-ee596b1b8a89",
+        "name": "api",
+        "containerId": "",
+        "created": "2022-07-27T01:54:39.627Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "36a625cb-c141-4866-bd89-26d97dd265d2",
+        "name": "auth",
+        "containerId": "913151e0-f9c9-43af-b53d-ee596b1b8a89",
+        "created": "2022-07-27T01:54:42.942Z",
+        "sortNum": 20000
+      }
+    ]
+  }
+]

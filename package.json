@@ -1,12 +1,36 @@
 {
-  "name": "api",
+  "name": "xp-challenge-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config --watch src src",
+    "compose": "docker-compose down && docker-compose up -d"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express-winston": "^4.0.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^7.7.5",
+    "express-winston": "^4.2.0",
+    "helmet": "^5.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "winston": "^3.8.1"
+  }
 }

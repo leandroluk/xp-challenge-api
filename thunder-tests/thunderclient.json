@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "b3a5edca-a454-4a4f-9fb7-e3032f7fe27f",
+    "colId": "4639720e-1cc9-434b-8cc2-0faec27b008e",
+    "containerId": "",
+    "name": "getHealth",
+    "url": "{{host}}/health",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-07-27T01:54:28.587Z",
+    "modified": "2022-07-27T01:54:33.829Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a60d2a8e-c8d5-47be-8f3e-6b85ccd0f88d",
+    "colId": "4639720e-1cc9-434b-8cc2-0faec27b008e",
+    "containerId": "36a625cb-c141-4866-bd89-26d97dd265d2",
+    "name": "register",
+    "url": "{{host}}/api/auth/register",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-07-27T01:55:23.465Z",
+    "modified": "2022-07-27T01:58:17.506Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"{{#string}}\",\n  \"email\": \"{{#email}}\",\n  \"password\": \"333333\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f21d82fc-b212-45f9-a5b5-f9f629a1be11",
+    "colId": "4639720e-1cc9-434b-8cc2-0faec27b008e",
+    "containerId": "36a625cb-c141-4866-bd89-26d97dd265d2",
+    "name": "login",
+    "url": "{{host}}/api/auth/login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-07-27T02:08:13.672Z",
+    "modified": "2022-07-27T02:09:52.514Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"john.doe@email.com\",\n  \"password\": \"111111\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
